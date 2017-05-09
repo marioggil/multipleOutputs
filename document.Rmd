@@ -1,0 +1,23 @@
+---
+output: word_document
+params:
+  title: "Caso de estudio. Prueba 1"
+  Version: ""
+  date: "2017-05-08"
+  data: ""
+  varx: ""
+---
+
+**Name**: 
+`r sprintf('__*%s*__', BDTurpial[[1]]["CS_Name"])`
+
+
+>>>**Summary**: 
+`r sprintf('%s', BDTurpial[[1]]["CS_Summary"])`
+
+
+<br><br>
+**Keywords**: 
+`r sprintf('*%s*',BDTurpial[[1]]["CS_Keywords"])`
+
+
