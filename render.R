@@ -15,7 +15,7 @@ render_report <- function(Version, data, varx) {
     of <- sprintf("outputs/%s_%s.docx", Version, varx)
     pars <- list(
         Version = Version, data = data,
-        varx   = 1
+        varx   = varx
     )
     
     rmarkdown::render(temp, output_file = of, params = pars)
