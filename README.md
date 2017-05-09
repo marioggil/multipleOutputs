@@ -1,7 +1,8 @@
 
 ## multipleOutputs documentation
 #Version orignal
-*By Emanuel Valero*
+*By Emanuel Valero*  
+Modificated *By Mario J. G.Gil*  
 
 *2017-04-21*
 
