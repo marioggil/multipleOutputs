@@ -1,12 +1,9 @@
-load("EjemploTurpialSencillo.rda")
+#load("EjemploTurpialSencillo.rda")
+load("20170509_EjemploBDTurpial.rda")
 largo=length(BDTurpial)
 
 ## Input parameters to add to the header of document.Rmd template
-param_list <- list(
-    Version = "V1",
-    data   = "BDTurpial",
-    varx   = list(1:largo)
-)
+
 
 ## function to render reports based on parameters that are passed to
 ## document.Rmd template
@@ -24,4 +21,13 @@ render_report <- function(Version, data, varx) {
 
 ## render reports  over multiple params
 ##urrr::pmap(param_list, render_report)
-render_report(param_list$Version,param_list$data,1)
+
+for (i in  1:largo){
+param_list <- list(
+    Version = "V1",
+    data   = "BDTurpial",
+    varx   = i
+)
+ render_report(param_list$Version,param_list$data,i)
+}
+#render_report(param_list$Version,param_list$data,1)

@@ -9,15 +9,54 @@ params:
 ---
 
 **Name**: 
-`r sprintf('__*%s*__', BDTurpial[[1]]["CS_Name"])`
+`r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Name_1"])`
+
+
+**Author**: `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_Title_1"])` `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_Last_Name_1"])` `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_First_Name_1"])` `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_Middle_Initial_1"])` `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Institutional_Afiliation"])`  `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_Email_1"])`  `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_Address_1"])`
 
 
 >>>**Summary**: 
 `r sprintf('%s', BDTurpial[[1]]["CS_Summary"])`
 
 
-<br><br>
+**CS_Date_Recieved**: `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Date_Recieved"])` CS_Date_Accepted `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Date_Accepted"])`  CS_Data_Web_Published `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Data_Web_Published"])` CS_Date_Published `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Date_Published"])` 
+
 **Keywords**: 
-`r sprintf('*%s*',BDTurpial[[1]]["CS_Keywords"])`
+`r sprintf('*%s*',BDTurpial[[i]]["CS_Keywords"])`
+
+
+
+Scheme code: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Scheme_Code_1"])`
+Scheme Name: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Classification_Scheme_Name_1"])` Version:  `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Classification_Scheme_Version_1"])`
+Scheme Classification: `r sprintf('__*%s*__', BDTurpial[[i]]["EEc_Classification_Scheme_1"])`
+Scheme Classification Scale: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Classification_Scheme_Scale_1"])`
+Scheme Classification URL: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Classification_Scheme_URL_1"])`
+Scheme Classification Reference: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Classification_Scheme_Reference_1"])`
+
+
+IUCN Name: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_IUCN_Name"])`
+IUCN Name: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_IUCN_Classification_Schemee"])`
+IUCN Clasification Scheme Version: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_IUCN_Clasification_Scheme_Version"])`
+IUCN Classification Scheme Scale: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_IUCN_Classification_Scheme_Scale"])`
+IUCN Classification Scheme Reference: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_IUCN_Classification_Scheme_Reference"])`
+
+
+Ecological System: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_System"])`
+Biogeographic realm: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Biogeographic_realm"])`
+
+
+Ecological Description: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Description"])`
+Ecological Description References: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Description_References"])`
+
+
+Continent: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Continent"])`
+Continent ID: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Continent_ID"])`
+
+
+Country: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Country"])`
+Country ID: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Country_ID"])`
+
+
+
 
 
