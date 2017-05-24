@@ -2,32 +2,57 @@
 output: word_document
 params:
   title: "Caso de estudio. Prueba 1"
-  Version: ""
+  Version: "0.01"
   date: "2017-05-08"
   data: ""
   varx: ""
 ---
+*IUCN Red List of Ecosystems Assessments*
 
-**Name**: 
-`r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Name_1"])`
+Draft Assessment Report for `r sprintf('%s', BDTurpial[[i]]["Ec_Name_1"])`
 
+Version Recived `r sprintf('%s', BDTurpial[[i]]["CS_Date_Recieved"])` Version Accepted `r sprintf('%s', BDTurpial[[i]]["CS_Date_Accepted"])` Version Web Published `r sprintf('%s', BDTurpial[[i]]["CS_Data_Web_Published"])` Version Published `r sprintf('%s', BDTurpial[[i]]["CS_Date_Published"])` 
+
+**Citation**:
+
+
+**More information**: izager@provitaonline.org 
+
+**Abstract**: `r sprintf('%s', BDTurpial[[1]]["CS_Summary"])` **Keywords**: `r sprintf('*%s*',BDTurpial[[i]]["CS_Keywords"])`
+
+
+| Ecosystem     |     `r sprintf('%s', BDTurpial[[i]]["Ec_Name_1"])`     |
+|:----------:|:-------------:|
+| Assessment’s distribution   |  `r sprintf('%s', BDTurpial[[i]]["Ec_Biogeographic_realm"])` |
+| Global distribution   |    `r sprintf('%s', BDTurpial[[i]]["Ec_Name_1"])`   |
+
+
+
+
+
+
+|     |    A    | B |   C    | D|    E    | Overall|
+|:----------:|:-------------:|:----------:|:-------------:|:----------:|:-------------:|:----------:|
+| Subcriterion 1   |  `r sprintf('%s', BDTurpial[[i]]["RA_Criterion_A1_Risk_Category"])` |`r sprintf('%s', BDTurpial[[i]]["RA_Criterion_B1_Risk_Category"])` |   `r sprintf('%s', BDTurpial[[i]]["RA_Criterion_C1_Risk_Category"])`|`r sprintf('%s', BDTurpial[[i]]["RA_Criterion_D1_Risk_Category"])`|   `r sprintf('%s', BDTurpial[[i]]["RA_Criterion_E1_Risk_Category"])`   | `r sprintf('%s', BDTurpial[[i]]["RA_Overall_Category"])` |
+| Subcriterion 2   |  `r sprintf('%s', BDTurpial[[i]]["RA_Criterion_A2_Risk_Category"])` |`r sprintf('%s', BDTurpial[[i]]["RA_Criterion_B2_Risk_Category"])` |   `r sprintf('%s', BDTurpial[[i]]["RA_Criterion_C2_Risk_Category"])`|`r sprintf('%s', BDTurpial[[i]]["RA_Criterion_D2_Risk_Category"])`|   | |
+| Subcriterion 3   |  `r sprintf('%s', BDTurpial[[i]]["RA_Criterion_A3_Risk_Category"])` |`r sprintf('%s', BDTurpial[[i]]["RA_Criterion_B3_Risk_Category"])` |   `r sprintf('%s', BDTurpial[[i]]["RA_Criterion_C3_Risk_Category"])`|`r sprintf('%s', BDTurpial[[i]]["RA_Criterion_D3_Risk_Category"])`|     | |
+
+CR: Critically Endangered, EN: Endangered, VU: Vulneable, NT: Near Threatened, LC: Least Concern, DD Data Deficient, NE: Not Evaluated
+
+
+
+*`r sprintf('%s', BDTurpial[[i]]["Ec_Name_1"])`*
 
 **Author**: `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_Title_1"])` `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_Last_Name_1"])` `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_First_Name_1"])` `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_Middle_Initial_1"])` `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Institutional_Afiliation"])`  `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_Email_1"])`  `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Author_Address_1"])`
 
-
->>>**Summary**: 
-`r sprintf('%s', BDTurpial[[1]]["CS_Summary"])`
+*Ecosystem classification and concept:*
 
 
-**CS_Date_Recieved**: `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Date_Recieved"])` CS_Date_Accepted `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Date_Accepted"])`  CS_Data_Web_Published `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Data_Web_Published"])` CS_Date_Published `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Date_Published"])` 
+#*1 Classification*:
 
-**Keywords**: 
-`r sprintf('*%s*',BDTurpial[[i]]["CS_Keywords"])`
+IUCN habitats classification scheme  `r sprintf(' (Version *%s*)', BDTurpial[[i]]["Ec_Classification_Scheme_Version_1"])` Scheme code: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Scheme_Code_1"])`
 
-
-
-Scheme code: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Scheme_Code_1"])`
-Scheme Name: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Classification_Scheme_Name_1"])` Version:  `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Classification_Scheme_Version_1"])`
+`r sprintf('*%s*', BDTurpial[[i]]["Ec_Classification_Scheme_Name_1"])` 
 Scheme Classification: `r sprintf('__*%s*__', BDTurpial[[i]]["EEc_Classification_Scheme_1"])`
 Scheme Classification Scale: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Classification_Scheme_Scale_1"])`
 Scheme Classification URL: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Classification_Scheme_URL_1"])`
@@ -40,6 +65,8 @@ IUCN Clasification Scheme Version: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_IUC
 IUCN Classification Scheme Scale: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_IUCN_Classification_Scheme_Scale"])`
 IUCN Classification Scheme Reference: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_IUCN_Classification_Scheme_Reference"])`
 
+
+#*2 Ecosystem description*
 
 Ecological System: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_System"])`
 Biogeographic realm: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Biogeographic_realm"])`
@@ -56,7 +83,56 @@ Continent ID: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Continent_ID"])`
 Country: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Country"])`
 Country ID: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Country_ID"])`
 
+##2.1 Characteristic native biota
+
+##2.2 Abiotic features
+##2.3 Distribution
+Distribution Author: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Distribution_author"])`
+Distribution Title: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Distribution_map_Title"])`
+Distribution map caption: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Distribution_map_caption"])`
+
+
+##2.4 Ecological processes
+
+Distribution Author: `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Threatening_processes"])`
+
+#3 Threatening processes
+
+Distribution Author: `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Threatening_processes"])`
+
+#4 Assessment
+
+##4.1 Criterion A
+
+##4.2 Criterion B
+
+##4.3 Criterion C
+
+##4.4 Criterion D
+ 
+##4.5 Criterion E
+
+##4.6 Overall status
+
+
+#References
 
 
 
+Authors 
 
+Editor 
+
+Editorial collaborators 
+
+Scientific editors
+
+Edition & Design
+
+Web portal 
+
+#Opinions
+
+Opinions expressed in this publication do not necessarily reflect the views of IUCN, its Council or its Members.
+
+IUCN Commission on Ecosystem Management and IUCN Global Ecosystem Management Programme, Gland Switzerland.

@@ -1,0 +1,169 @@
+
+
+
+
+$M007$Ec_Collapse_Definition
+[1] ""
+
+$M007$RA_Date
+[1] "12/15/2016"
+
+$M007$RA_Distribution
+[1] "Assessment was based on a subset of the potential distribution that shows consistent values of environmental conditions, biogeographic regions and the distribution of characteristic biota, and low overlap with similar Macrogroups. All areas of potential distribution in 1 countries (Bahamas) were excluded, thus the assessment focuses only on United States. The selected units of analysis represent 78.4 percent of the potential distribution of the Macrogroup according to the original source."
+
+$M007$RA_Distribution_summary
+[1] "Assessment was based on a subset of the potential distribution that shows consistent values of environmental conditions, biogeographic regions and the distribution of characteristic biota, and low overlap with similar Macrogroups."
+
+$M007$RA_Latitude
+[1] 31.32105
+
+$M007$RA_Longitude
+[1] -84.03026
+
+$M007$RA_Scope
+[1] "Global"
+
+$M007$RA_Level
+[1] "Continental"
+
+$M007$RA_Country
+[1] "United States"
+
+$M007$RA_Extent
+[1] "Yes"
+
+$M007$RA_Current
+[1] "Yes"
+
+$M007$RA_Version
+[1] "1.0"
+
+$M007$RA_Overall_Category
+[1] "CR"
+
+$M007$RA_Criterion
+[1] "A3"
+
+$M007$RA_Rationale
+[1] "This Macrogroup is threatened due to high levels of historical rate of change. "
+
+$M007$RA_Summary
+[1] "The assessment of the Longleaf Pine Woodland Macrogroup was based on a consistent subset of its potential distribution. It appears to be Critically Endangered (CR), due to very high levels of the historical rate of decline in distribution."
+
+$M007$RA_Criterion_A1_Risk_Category
+[1] "NE"
+
+$M007$RA_Criterion_A2a_Risk_Category
+[1] "LC"
+
+$M007$RA_Criterion_A2a_Initial_year
+[1] 2015
+
+$M007$RA_Criterion_A2a_Final_year
+[1] 2065
+
+$M007$RA_Criterion_A2a_Initial_extent
+[1] "93690.5 -- 130763.1"
+
+$M007$RA_Criterion_A2a_Final_extent
+[1] "97246.6 -- 127794.9"
+
+$M007$RA_Criterion_A2a_Extent_units
+[1] "km$^2$"
+
+$M007$RA_Criterion_A2a_Comments
+[1] "Two different estimates of current geographic distribution are based on available time series of percentage tree cover derived from LandSat imagery between 2000 and 2014 \\citep{Hansen2013} and land cover classification derived from Modis data between 2001 and 2012 \\citep{IGBP2010}. Initial estimates range between 93690.5 -- 130763.1 km$^2$, and final estimates range between 97246.6 -- 127794.9 km$^2$. These sources suggest contradictory rates of change in forest coverage during this period (IGBPa, IGBPb increasing vs. GFC decreasing) and subsequently divergent estimates of future changes. Extrapolation of the proportional rate of decline between 2000 and 2050 suggest categories of LC for subcriterion A2a. Prediction for the next 50 years suggest category LC according to subcriterion A2b."
+
+$M007$RA_Criterion_A2a_Time_image_author_1
+[1] "JR Ferrer-Paris"
+
+$M007$RA_Criterion_A2a_Time_image_title_1
+[1] "Expected reduction in geographic distribution"
+
+$M007$RA_Criterion_A2a_Time_image_caption_1
+[1] "Estimated geographic distribution of Macrogroup Longleaf Pine Woodland from 2000 to the present, according to the estimated global forest cover \\\\citep[GFC, from][]{Hansen2013}, and the extent of forest classes from land cover estimates \\\\citep[][IGBPa: different forest classes and mosaic of natural and cultivated vegetation; IGBPb: only natural forest classes]{IGBP2010}. For IGBPa, IGBPb, the distribution seems to be stable or increasing in the future (trends not shown). For GFC, the expected future decline was extrapolated under the assumption of a proportional rate of decline (solid line)"
+
+$M007$RA_Criterion_A2b_Risk_Category
+[1] "LC"
+
+$M007$RA_Criterion_A2b_Comments
+[1] ""
+
+$M007$RA_Criterion_A3_Risk_Category
+[1] "CR"
+
+$M007$RA_Criterion_A3_Initial_year
+[1] 1700
+
+$M007$RA_Criterion_A3_Final_year
+[1] 2000
+
+$M007$RA_Criterion_A3_Initial_extent
+[1] "228351.4 -- 231084.5"
+
+$M007$RA_Criterion_A3_Final_extent
+[1] "6592.0 -- 80901.8"
+
+$M007$RA_Criterion_A3_Extent_units
+[1] "km$^2$"
+
+$M007$RA_Criterion_A3_ARD
+[1] "531.3 km$^2$ per year"
+
+$M007$RA_Criterion_A3_PRD
+[1] "0.28 percent per year"
+
+$M007$RA_Criterion_A3_Percent_reduction_RD
+[1] "65.0 -- 97.1"
+
+$M007$RA_Criterion_A3_Comments
+[1] "Historical estimates of geographic distribution are based on the potential extent of woodlands within the validated range of the Macrogroup for the last four centuries \\citep{Anthromes}. A coservative estimate includes only wild and seminatural woodlands that represent more pristine conditions, while a second estimate includes also populated woodlands (A third option which also includes residential woodlands is shown in the figure but was discarded from the assessment). Inital extent in 1700 is between 228351.4 -- 231084.5 km$^2$, while by the year 2000 it is calculated as 6592.0 -- 80901.8 km$^2$. Based on these estimates, the anual absolute rate of decline is around 531.3 km$^2$ per year, and the proportional rate of decline is 0.28 percent per year . The percent of reduction in extent for the whole period considered is 65.0 -- 97.1, hence this Macrogroup is Critically Endangered (CR) under subcriterion A3."
+
+$M007$RA_Criterion_A3_Time_image_author_1
+[1] "JR Ferrer-Paris"
+
+$M007$RA_Criterion_A3_Time_image_title_1
+[1] "Historical reduction in geographic distribution"
+
+$M007$RA_Criterion_A3_Time_image_captio_1
+[1] "Estimated geographic distribution of Macrogroup Longleaf Pine Woodland from 1700 to the present, according to the potential extent of wild, seminatural, populated (and residential) woodlands \\\\citep{Anthromes}"
+
+$M007$RA_Criterion_B1_Risk_Category
+[1] "LC"
+
+$M007$RA_Criterion_B1_EOO
+[1] 1181938
+
+$M007$RA_Criterion_B1_Inminent_Threat
+[1] "No"
+
+$M007$RA_Criterion_B1_threat_type_1
+[1] ""
+
+$M007$RA_Criterion_B1_Numeral_1
+[1] ""
+
+$M007$RA_Criterion_B1_Comments
+[1] "For this Macrogroup the extent of occurrence (E00) was estimated as 1181937.6 km$^2$ (including only units with consistent environmental, biotic and biogeographical conditions). This estimate is beyond the threshold for any threatened category under criterion B1, and the Macrogroup is thus considered Least Concern (LC)."
+
+$M007$RA_Criterion_B2_Risk_Category
+[1] "LC"
+
+$M007$RA_Criterion_B2_AOO
+[1] 4090
+
+$M007$RA_Criterion_B2_Inminent_Threat
+[1] "No"
+
+$M007$RA_Criterion_B2_threat_type_1
+[1] ""
+
+$M007$RA_Criterion_B2_Numeral_1
+[1] ""
+
+$M007$RA_Criterion_B2_Comments
+[1] "This Macrogroup occupies approximatedly 4090 $10\\times10$ km grid cells (including only units with consistent environmental, biotic and biogeographical conditions). This estimate is beyond the threshold for any threatened category under criterion B2, and the Macrogroup is thus considered Least Concern (LC)."
+
+
+> 
+
