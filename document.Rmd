@@ -87,6 +87,10 @@ Country ID: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Country_ID"])`
 
 ##2.2 Abiotic features
 ##2.3 Distribution
+
+Distribution Summary: `r sprintf('__*%s*__', BDTurpial[[i]]["RA_Distribution_summary"])`
+
+Distribution: `r sprintf('__*%s*__', BDTurpial[[i]]["RA_Distribution"])`
 Distribution Author: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Distribution_author"])`
 Distribution Title: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Distribution_map_Title"])`
 Distribution map caption: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Distribution_map_caption"])`
@@ -94,9 +98,12 @@ Distribution map caption: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Distribution
 
 ##2.4 Ecological processes
 
-Distribution Author: `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Threatening_processes"])`
+Collapse definition: `r sprintf('__*%s*__', BDTurpial[[i]]["Ec_Collapse_Definition"])`
+
 
 #3 Threatening processes
+
+Threatening processes: `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Threatening_processes"])`
 
 Distribution Author: `r sprintf('__*%s*__', BDTurpial[[i]]["CS_Threatening_processes"])`
 
